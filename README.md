@@ -13,12 +13,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image1]: train%20dataset%20distribution.png "Visualization"
+[image4]: my_images/example_1.jpg "Traffic Sign 1"
+[image5]: my_images/example_6.jpg "Traffic Sign 2"
+[image6]: my_images/example_7.jpg "Traffic Sign 3"
+[image7]: my_images/example_9.jpg "Traffic Sign 4"
+[image8]: my_images/example_8.jpg "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -35,7 +35,7 @@ The goals / steps of this project are the following:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data looks like:
+Here is an exploratory visualization of the data set. It is a bar chart showing how the data looks like this:
 
 ![alt text][image1]
 
@@ -119,7 +119,6 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
 
-The first image might be difficult to classify because ...
 The provided images are made under good light and shooting conditions (no darkness, blurry, with artificial distortions, ...) so that the classifier most likely will performe quite well.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set.
