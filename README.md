@@ -136,14 +136,14 @@ Here are the results of the predictions:
 The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 95%.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability.
-For example, the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For instance, for the 4th sample, the top five soft max probabilities were
 
 | Probability | Prediction label | 
 |:---------------------:|:---------------------------------------------:| 
-| 100.0 % | 31 | 
-| 7.74892345983e-28 % | 21 |
-| 1.2211449724e-32 % | 25 |
-| 2.41485960539e-36 % | 2	|
-| 0.0 % | 0	|
+| 99.9802649021 % | 34 | 
+| 0.019738310948 % | 38 |
+| 2.06127359625e-07 % | 17 |
+| 5.48926613257e-12 % | 13	|
+| 4.02001802886e-12 % | 14	|
 
 This means that the model was extremely confident about the prediction.
