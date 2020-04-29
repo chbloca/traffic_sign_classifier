@@ -73,13 +73,13 @@ The training optimizers that have been used for the training were:
 * softmax_cross_entropy_with_logits: provides a tensor representing the mean loss value. Afterwards, to this is aplied reduce_mean, so that the mean of the elements across dimensions is retrieved
 * AdamOptimizer: it is an enhanced version of the SGD and it is used to update network weights iteratively.
 
-My final model Validation Accuracy was 0.968
+My final model Validation Accuracy was 0.963
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* validation set accuracy of 0.968
-* test set accuracy of 0.95
+* validation set accuracy of 0.963
+* test set accuracy of 0.945
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
